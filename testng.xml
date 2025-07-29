@@ -1,0 +1,10 @@
+<suite name="Mobile App Test Suite">
+
+    <test name="Login Tests">
+        <parameter name="requiresLogin" value="false"/>
+        <classes>
+            <class name="test.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
